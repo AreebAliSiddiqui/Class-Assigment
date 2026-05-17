@@ -1,0 +1,22 @@
+*{
+    background:#d9f8f8 ;
+}
+#box{
+    width:250px ;
+    height:230px ;
+    background:#93f7f6;
+;
+}
+h1{
+    color:rgb(62, 102, 155) ;
+    font-size:50px ;
+   
+}
+h2{
+    font-size: 30px;
+    color: rgb(62, 102, 155);
+}
+p {
+    font-size:18px ;
+    background: #93f7f6;
+}
