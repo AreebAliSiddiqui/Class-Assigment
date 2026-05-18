@@ -1,63 +1,64 @@
-*{
+* {
     background: #ff9900;
 }
 
-.container{
-    height:470px ;
+.container {
+    height: 470px;
     width: 400px;
     border-radius: 10px;
     background: white;
     margin: auto;
     padding: 10px;
 }
-h1{
+
+h1 {
     background: white;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-form{
+form {
     background-color: white;
 }
 
-label{
-    font-size: 18px ;
+label {
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     background: white;
-    
+
 }
 
-input{
-   background: white;
-   border-radius: 5px ;
-   height: 40px;
-   width: 220px;
-   border: 2px solid#ccc;
+input {
+    background: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 220px;
+    border: 2px solid#ccc;
 }
 
-button{
-    width:400px ;
-    height: 50px ;
+button {
+    width: 400px;
+    height: 50px;
     border-radius: 10px;
     font-size: 25px;
-    
+
 }
 
-p{
+p {
     background: white;
     font-size: 20px;
 }
 
-center{
+center {
     background: white;
 }
 
-.End{
+.End {
     color: green;
 }
 
-#box{
-     height:330px ;
+#box {
+    height: 330px;
     width: 400px;
     border-radius: 10px;
     background: white;
