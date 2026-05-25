@@ -1,0 +1,226 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Navigation bar */
+.div1 {
+    background-color: rgb(8, 8, 71);
+    height: 50px;
+    width: 100vw;
+
+
+}
+
+div .heading1 {
+    color: white;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+div .heading2 {
+    color: rgb(82, 85, 229);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.ul1 {
+    display: inline-block;
+    margin-left: 47%;
+}
+
+.ul1 li {
+    display: inline-block;
+    padding: 15px;
+
+
+}
+
+.ul1 li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.btn1 {
+    margin-left: 15px;
+    background-color: rgb(82, 85, 229);
+    width: 100px;
+    height: 30px;
+    border-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: rgb(82, 85, 229);
+}
+
+.btn1:active {
+    color: red;
+    background-color: wheat;
+    border-color: red;
+}
+
+/* Middle Section 1 */
+
+.text {
+    margin-left: 40px;
+    margin-top: 60px;
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    color: rgb(65, 67, 204);
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.text .head1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+
+}
+
+.text .head2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 85, 229);
+    font-size: 38px;
+}
+
+.text p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 25px;
+    font-size: 17px;
+
+}
+
+.text .btn2 {
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(82, 85, 229);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: rgb(82, 85, 229);
+}
+
+.btn2:active {
+    color: red;
+    border-color: red;
+    background-color: wheat
+}
+
+.text .btn3 {
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(82, 85, 229);
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn3:hover {
+    background-color: rgb(82, 85, 229);
+    color: white;
+}
+
+.btn3:active {
+    color: red;
+    border-color: red;
+    background-color: wheat;
+}
+
+.image {
+    height: 400px;
+    width: 700px;
+    margin-top: 60px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.image img {
+    width: 600px;
+    margin-left: 200px;
+}
+
+/* Middle section 2  */
+.div3 {}
+
+.div3 h5 {
+    color: rgb(82, 85, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.div3 .head1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.div3 img {
+    margin-left: 200px;
+}
+
+/* Footer section   */
+
+.div4 {}
+
+.image {
+    display: inline-block;
+}
+
+.div4 .image img {
+    margin-left: 40px;
+}
+
+.div4 .text {
+    display: inline-block;
+    margin-left: 0%;
+
+}
+
+.div4 .btn4 {
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(82, 85, 229);
+}
+
+.btn4:hover {
+    color: rgb(82, 85, 229);
+    background-color: white;
+}
+
+.btn4:active {
+    color: red;
+    border-color: red;
+    background-color: wheat;
+}
