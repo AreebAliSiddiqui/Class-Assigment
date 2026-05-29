@@ -30,15 +30,15 @@ form {
     background-color: white;
 }
 
-.row{
+.row {
     display: flex;
-    gap:60px ;
+    gap: 60px;
     background-color: white;
     margin-left: 60px;
 
 }
 
-.field{
+.field {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -70,17 +70,17 @@ input {
     color: black;
 }
 
-a{
-    
+a {
+
     margin-left: 60px;
 }
 
-button:hover{
-    background-color:#f7ff0c ;
+button:hover {
+    background-color: #f7ff0c;
     color: black;
 }
 
-button:active{
+button:active {
     color: red;
     border-color: red;
 }
@@ -99,8 +99,8 @@ button:active{
     padding: 5px;
 }
 
-.head1{
-    
+.head1 {
+
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -109,15 +109,15 @@ form {
     background-color: white;
 }
 
-.row1{
+.row1 {
     display: flex;
     background-color: white;
-    
+
     margin-left: 30px;
     margin-top: 30px;
 }
 
-.field1{
+.field1 {
     display: flex;
     background-color: white;
     flex-direction: column;
@@ -147,9 +147,9 @@ input {
 
 }
 
-.a1{
+.a1 {
     margin-left: 25px;
-    
+
 
 }
 
@@ -178,7 +178,7 @@ p {
     padding: 10px;
 }
 
-.btn2{
+.btn2 {
     width: 400px;
     height: 50px;
     border-radius: 10px;
