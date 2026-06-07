@@ -5,7 +5,7 @@
 .container {
     background-color: rgb(12, 12, 84);
     height: 300px;
-    width: 100vw;
+    width: 100%;
 
 }
 
@@ -27,7 +27,7 @@ div h2 {
     color: white;
     padding-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 div p {
@@ -42,7 +42,7 @@ div p {
 div Button {
     margin-left: 50px;
     background-color: rgb(255, 181, 8);
-    height: 40px;
+    height: 35px;
     width: 120px;
     border-radius: 5px;
 
@@ -75,8 +75,9 @@ h1 {
 }
 
 img {
-    width: 800px;
-    margin-left: 300px;
+    width: 500px;
+    display: block;
+    margin: auto;
 }
 
 h3 {
@@ -85,8 +86,12 @@ h3 {
     color: rgb(60, 128, 254);
 }
 
+a{
+    text-decoration: none;
+}
 .button2 {
-    margin-left: 660px;
+    display: block;
+    margin: auto;
     height: 25px;
     width: 120px;
     color: rgb(255, 255, 255);
@@ -97,4 +102,446 @@ h3 {
     background-color: rgb(12, 12, 84);
     color: rgb(253, 253, 253);
     text-align: center;
+}
+
+/* makes Responsive Portfolio using Media query */
+
+ /* Medium Mobiles */
+@media (max-width:480px) {
+
+    .container {
+        background-color: rgb(12, 12, 84);
+        height: 300px;
+        width: 100%;
+    }
+
+    div h1 {
+        color: white;
+        text-align: center;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 15px;
+
+    }
+
+    div h4 {
+        color: rgb(255, 181, 8);
+        padding-left: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+
+    div h2 {
+        color: white;
+        padding-left: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+    }
+
+    div p {
+        color: white;
+        padding-left: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        line-height: 25px;
+        font-size: 12px;
+
+    }
+
+    div Button {
+        margin-left: 25px;
+        background-color: rgb(255, 181, 8);
+        height: 30px;
+        width: 100px;
+        border-radius: 5px;
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 20px;
+        text-decoration: underline;
+        color: rgb(12, 12, 84);
+
+
+    }
+
+    .heading2 {
+        color: rgb(255, 181, 8);
+        text-align: center;
+        padding-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+
+    .paragrapgh2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 10px;
+        font-size: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    img {
+        width: 330px;
+        margin: auto;
+        display: block;
+    }
+
+    h3 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(60, 128, 254);
+        font-size: 13px;
+    }
+
+    .button2 {
+        margin: auto;
+        display: block;
+        height: 25px;
+        width: 100px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(99, 99, 228);
+        text-decoration: none;
+    }
+
+    .container1 {
+        background-color: rgb(12, 12, 84);
+        color: rgb(253, 253, 253);
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+/* Small mobiles */
+
+
+@media (max-width:350px) {
+
+    .container {
+        background-color: rgb(12, 12, 84);
+        height: 270px;
+        width: 100%;
+    }
+
+    div h1 {
+        color: white;
+        text-align: center;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 15px;
+
+    }
+
+    div h4 {
+        color: rgb(255, 181, 8);
+        padding-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+    }
+
+    div h2 {
+        color: white;
+        padding-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 21px;
+    }
+
+    div p {
+        color: white;
+        padding-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        line-height: 25px;
+        font-size: 11px;
+        
+
+    }
+
+    div Button {
+        margin-left: 20px;
+        background-color: rgb(255, 181, 8);
+        height: 25px;
+        width: 90px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 18px;
+        text-decoration: underline;
+        color: rgb(12, 12, 84);
+
+
+    }
+
+    .heading2 {
+        color: rgb(255, 181, 8);
+        text-align: center;
+        padding-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+    }
+
+    .paragrapgh2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 10px;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    img {
+        width: 250px;
+        display: block;
+        margin: auto;}
+
+    h3 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(60, 128, 254);
+        font-size: 11px;
+    }
+
+    .button2 {
+        display: block;
+        margin: auto;
+        height: 18px;
+        width: 80px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(99, 99, 228);
+    }
+
+    .container1 {
+        background-color: rgb(12, 12, 84);
+        color: rgb(253, 253, 253);
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+/* Large Mobile or Tablet */
+
+@media (max-width:780px) {
+
+    .container {
+        background-color: rgb(12, 12, 84);
+        height: 270px;
+        width: 100%;
+    }
+
+    div h1 {
+        color: white;
+        text-align: center;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 15px;
+
+    }
+
+    div h4 {
+        color: rgb(255, 181, 8);
+        padding-left: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+    }
+
+    div h2 {
+        color: white;
+        padding-left: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 21px;
+    }
+
+    div p {
+        color: white;
+        padding-left: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        line-height: 25px;
+        font-size: 11px;
+        
+
+    }
+
+    div Button {
+        margin-left: 23px;
+        background-color: rgb(255, 181, 8);
+        height: 25px;
+        width: 90px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 18px;
+        text-decoration: underline;
+        color: rgb(12, 12, 84);
+
+
+    }
+
+    .heading2 {
+        color: rgb(255, 181, 8);
+        text-align: center;
+        padding-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+    }
+
+    .paragrapgh2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 10px;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    img {
+        width: 250px;
+        display: block;
+        margin: auto;}
+
+    h3 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(60, 128, 254);
+        font-size: 11px;
+    }
+
+    .button2 {
+        display: block;
+        margin: auto;
+        height: 18px;
+        width: 80px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(99, 99, 228);
+    }
+
+    .container1 {
+        background-color: rgb(12, 12, 84);
+        color: rgb(253, 253, 253);
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+/* large Tablet */
+
+@media (max-width:1024px) {
+
+    .container {
+        background-color: rgb(12, 12, 84);
+        height: 270px;
+        width: 100%;
+    }
+
+    div h1 {
+        color: white;
+        text-align: center;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 15px;
+
+    }
+
+    div h4 {
+        color: rgb(255, 181, 8);
+        padding-left: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+    }
+
+    div h2 {
+        color: white;
+        padding-left: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 21px;
+    }
+
+    div p {
+        color: white;
+        padding-left: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        line-height: 25px;
+        font-size: 11px;
+        
+
+    }
+
+    div Button {
+        margin-left: 23px;
+        background-color: rgb(255, 181, 8);
+        height: 25px;
+        width: 90px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 18px;
+        text-decoration: underline;
+        color: rgb(12, 12, 84);
+
+
+    }
+
+    .heading2 {
+        color: rgb(255, 181, 8);
+        text-align: center;
+        padding-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+    }
+
+    .paragrapgh2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 10px;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    img {
+        width: 250px;
+        display: block;
+        margin: auto;}
+
+    h3 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(60, 128, 254);
+        font-size: 11px;
+    }
+
+    .button2 {
+        display: block;
+        margin: auto;
+        height: 18px;
+        width: 80px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(99, 99, 228);
+    }
+
+    .container1 {
+        background-color: rgb(12, 12, 84);
+        color: rgb(253, 253, 253);
+        text-align: center;
+        width: 100%;
+    }
+
 }
