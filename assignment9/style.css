@@ -1,13 +1,15 @@
 * {
     margin: 0%;
     padding: 0%;
+    
+    
 }
 
 /* Navigation bar */
 .div1 {
     background-color: rgb(8, 8, 71);
     height: 50px;
-    width: 100vw;
+    width: 100%;
 
 
 }
@@ -72,6 +74,10 @@ div .heading2 {
 }
 
 /* Middle Section 1 */
+
+.div2{
+    width: 100%;
+}
 
 .text {
     margin-left: 40px;
@@ -156,10 +162,11 @@ div .heading2 {
 
 .image {
     height: 400px;
-    width: 700px;
+    width: 680px;
     margin-top: 60px;
     display: inline-block;
     vertical-align: top;
+    
 
 }
 
@@ -170,6 +177,9 @@ div .heading2 {
 
 /* Middle section 2  */
 
+.div3{
+    width: 100%;
+}
 
 .div3 h5 {
     color: rgb(82, 85, 229);
@@ -183,11 +193,53 @@ div .heading2 {
 }
 
 .div3 img {
-    margin-left: 200px;
+    margin: auto;
+    display: block;
 }
 
 /* Footer section   */
 
+.div4{
+    width: 100%;
+
+}
+
+.text1 {
+    margin-left: 0px;
+    margin-top: 60px;
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text1 h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    color: rgb(65, 67, 204);
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.text1 .head1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+
+}
+
+.text1 .head2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 85, 229);
+    font-size: 38px;
+}
+
+.text1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 25px;
+    font-size: 17px;
+
+}
 
 
 .image {
@@ -200,7 +252,7 @@ div .heading2 {
 
 .div4 .text {
     display: inline-block;
-    margin-left: 0%;
+    
 
 }
 
