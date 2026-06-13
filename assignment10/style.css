@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navbar */
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    background: #0F172A;
+    align-items: center;
+}
+
+.head1{
+    color: #38BDF8;
+    margin-left: 20px;
+}
+
+.menu{
+    margin: auto;
+}
+
+a{
+    padding-left: 20px;
+    color: #38BDF8;
+}
+
+.btn1{
+    width: 100px;
+    height: 28px;
+    margin-right: 20px;
+    background-color: #3B82F6;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Header /intro */
+header{
+    display: flex;
+
+}
+
+.aboutme{
+    width: 400px;
+    height: 250px;
+    background-color: #F8FAFC;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px black;
+}
+
+.head2{
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.intro{
+    padding: 10px;
+    font-size: 18px;
+    
+}
+.profile img{
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 35px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 4px 10px gray;
+    
+}
