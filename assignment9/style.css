@@ -10,34 +10,38 @@
     background-color: rgb(8, 8, 71);
     height: 50px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
 
 
 }
 
 div .heading1 {
     color: white;
-    display: inline-block;
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     padding-left: 40px;
-    padding-top: 10px;
+    
 }
 
 div .heading2 {
     color: rgb(82, 85, 229);
-    display: inline-block;
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    padding-top: 10px;
+    
 }
 
 .ul1 {
-    display: inline-block;
-    margin-left: 47%;
+    display: flex;
+    margin: auto;
 }
 
 .ul1 li {
-    display: inline-block;
+    
     padding: 15px;
 
 
@@ -51,7 +55,8 @@ div .heading2 {
 }
 
 .btn1 {
-    margin-left: 15px;
+    
+    margin-right: 10px;
     background-color: rgb(82, 85, 229);
     width: 100px;
     height: 30px;
@@ -82,7 +87,7 @@ div .heading2 {
 .text {
     margin-left: 40px;
     margin-top: 60px;
-    width: 500px;
+    width: 450px;
     height: 300px;
     display: inline-block;
     vertical-align: top;
@@ -162,7 +167,7 @@ div .heading2 {
 
 .image {
     height: 400px;
-    width: 680px;
+    width: 450px;
     margin-top: 60px;
     display: inline-block;
     vertical-align: top;
@@ -171,8 +176,8 @@ div .heading2 {
 }
 
 .image img {
-    width: 600px;
-    margin-left: 200px;
+    width: 450px;
+    margin-left: 0px;
 }
 
 /* Middle section 2  */
@@ -205,9 +210,9 @@ div .heading2 {
 }
 
 .text1 {
-    margin-left: 0px;
+    margin-left: 40px;
     margin-top: 60px;
-    width: 500px;
+    width: 450px;
     height: 300px;
     display: inline-block;
     vertical-align: top;
@@ -241,12 +246,22 @@ div .heading2 {
 
 }
 
-
-.image {
+.image1 {
+    height: 400px;
+    width: 450px;
+    margin-top: 60px;
     display: inline-block;
+    vertical-align: top;
+    
+
 }
 
-.div4 .image img {
+.image1 img {
+    width: 450px;
+    margin-left: 200px;
+}
+
+.div4 .image1 img {
     margin-left: 40px;
 }
 
@@ -275,4 +290,137 @@ div .heading2 {
     color: red;
     border-color: red;
     background-color: wheat;
+}
+
+
+/* make responsive webpage */
+
+/* for large tablet */
+
+@media (max-width:1024px){
+
+    /* Middle section 2  */
+    .div2{
+    width: 100%;
+}
+
+.text {
+    margin-left: 40px;
+    margin-top: 60px;
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    color: rgb(65, 67, 204);
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.text .head1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+
+}
+
+.text .head2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 85, 229);
+    font-size: 33px;
+}
+
+.text p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 25px;
+    font-size: 14px;
+
+}
+
+.text .btn2 {
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(82, 85, 229);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: rgb(82, 85, 229);
+}
+
+.btn2:active {
+    color: red;
+    border-color: red;
+    background-color: wheat
+}
+
+.text .btn3 {
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(82, 85, 229);
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn3:hover {
+    background-color: rgb(82, 85, 229);
+    color: white;
+}
+
+.btn3:active {
+    color: red;
+    border-color: red;
+    background-color: wheat;
+}
+
+.image {
+    height: 350px;
+    width: 350px;
+    margin-top: 80px;
+    display: inline-block;
+    vertical-align: top;
+    
+
+}
+
+.image img {
+    width: 350px;
+    margin-left: 0px;
+}
+
+/* Middle section 2  */
+
+.div3{
+    width: 100%;
+}
+
+.div3 h5 {
+    color: rgb(82, 85, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.div3 .head1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.div3 img {
+    margin: auto;
+    display: block;
+    width: 700px;
+}
 }
