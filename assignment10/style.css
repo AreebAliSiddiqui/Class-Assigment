@@ -40,13 +40,14 @@ a{
 /* Header /intro */
 header{
     display: flex;
+    margin-top: 20px;
 
 }
 
 .aboutme{
     width: 400px;
     height: 250px;
-    background-color: #F8FAFC;
+    background-color: #38BDF8;
     margin-left: 20px;
     margin-top: 40px;
     border-radius: 10px;
@@ -57,6 +58,7 @@ header{
     text-align: center;
     padding: 10px;
     font-size: 28px;
+    
 }
 
 .intro{
@@ -72,4 +74,83 @@ header{
     border: 2px solid black;
     box-shadow: 0 4px 10px gray;
     
+}
+
+/* main, section */
+
+.cards{
+    display: flex;
+    margin-top: 20px;
+
+    
+}
+
+.card1{
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: #38BDF8;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px black;
+}
+
+.card1 img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+    box-shadow: 0 2px 10px black;
+    
+}
+
+.card2{
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: #38BDF8; 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px black;
+}
+
+.card2 img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+    box-shadow: 0 2px 10px black;
+    background-color: white;
+}
+
+.card3{
+    width: 400px;
+    margin-top: 50px;
+    height: 200px;
+    margin-left: 20px; 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px black;
+    background-color: #38BDF8;
+}
+
+.card3 img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+    box-shadow: 0 2px 10px black;
+    background-color: white;
+}
+.content{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+/* footer */
+
+.end{
+    width: 100vw;
+    height: 40px;
+    background-color: #38BDF8;
+    align-items: end;
 }
