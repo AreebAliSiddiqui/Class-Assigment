@@ -1,0 +1,687 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    
+    
+}
+
+/* navbar */
+.navbar{
+   
+    width: 100%;
+    height: 70px;
+    background-color: #0F131C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.logo{
+    display: flex;
+    margin: 30px;
+}
+
+.head1{
+    color: white;
+    font-size: 28px;
+}
+
+.head2{
+    color: red;
+    font-size: 28px;
+}
+
+.menu{
+    margin-right: 40px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    font-weight: bold;
+    
+}
+
+.link:hover{
+    color: red;
+
+}
+
+#burger{
+    color: white;
+    display: none;
+}
+
+/* hero section */
+
+.hero{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.badge{
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 240px;
+    height: 50px;
+    font-size: 16px;
+    left: 30px;
+    top: 110px;
+    border-radius: 20px;
+}
+
+.badge:hover{
+    
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    left: 30px;
+    top: 110px;
+    box-shadow: 0 2px 10px black;
+    border-radius: 20px;
+
+}
+
+.breaking{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+.head3{
+    padding-top: 260px;
+    padding-left: 30px;
+    font-size: 45px;
+    color: white;
+    
+}
+
+.head4{
+    padding-left: 30px;
+    font-size: 45px;
+    color: white;
+    
+}
+
+.para1{
+    font-size: 22px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    line-height: 32px;
+}
+
+/* main section */
+
+main{
+    width: 100%;
+}
+
+.cardhead{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.card1{
+    display: flex;
+    
+}
+
+.image1{
+    width: 170px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin-left: 70px;
+    margin-top: 35px;
+    background-image: url(images/govern.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.image2{
+    width: 170px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin-left: 70px;
+    margin-top: 35px;
+    background-image: url(images/tech.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.image3{
+    width: 170px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin-left: 70px;
+    margin-top: 35px;
+    background-image: url(images/team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+}
+
+
+.maincontent{
+    margin-top: 37px;
+    margin-left: 15px;
+    
+}
+
+.data{
+    padding-top: 7px;
+    font-size: 17px;
+    line-height: 20px;
+    padding-bottom: 7px;
+}
+
+.Read{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    
+}
+
+.card2{
+    display: flex;
+    
+}
+
+.card3{
+    display: flex;
+    
+}
+
+/* about section */
+
+.about{
+    padding-left: 70px;
+    padding-top: 80px;
+}
+
+.para2{
+    padding-left: 70px;
+    padding-top: 20px;
+    font-size: 17px;
+    padding-bottom: 120px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #0F131C;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.whatsapp img{
+    width: 60px;
+    justify-content: flex-end;
+    position: fixed;
+    right: 60px;
+    bottom: 40px;
+}
+
+.whatsapp img:hover{
+    width: 65px;
+    box-shadow: 0 2px 10px black;
+    border-radius: 20px;
+}
+
+/* responsive  */
+/* large tablet */
+
+@media (max-width:900px){
+
+    #burger{
+    color: white;
+    display: block;
+    margin-right: 30px;
+}
+
+.menu{
+    display: none;
+}
+
+.whatsapp img{
+    width: 50px;
+    justify-content: flex-end;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+.whatsapp img:hover{
+    width: 55px;
+    box-shadow: 0 2px 10px black;
+    border-radius: 20px;
+}
+
+}
+
+/* tablets */
+
+@media (max-width:700px){
+
+.badge{
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 220px;
+    height: 40px;
+    font-size: 16px;
+    left: 30px;
+    top: 110px;
+    border-radius: 20px;
+}
+
+.badge:hover{
+    
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 230px;
+    height: 40px;
+    font-size: 16px;
+    left: 30px;
+    top: 110px;
+    box-shadow: 0 2px 10px black;
+    border-radius: 20px;
+
+}
+
+.breaking{
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    font-size: 22px;
+}
+
+
+.head3{
+    padding-top: 260px;
+    padding-left: 30px;
+    font-size: 36px;
+    color: white;
+    
+}
+
+.head4{
+    padding-left: 30px;
+    font-size: 36px;
+    color: white;
+    
+}
+
+.para1{
+    font-size: 17px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    line-height: 32px;
+}
+
+main{
+    width: 100%;
+}
+
+.cardhead{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.card1{
+    display: flex;
+    
+    
+}
+
+.image1{
+    width: 140px;
+    height: 80px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+    margin-top: 35px;
+    background-image: url(images/govern.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+
+.image2{
+    width: 140px;
+    height: 80px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+    margin-top: 35px;
+    background-image: url(images/tech.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.image3{
+    width: 140px;
+    height: 80px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+    margin-top: 35px;
+    background-image: url(images/team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+}
+
+
+.maincontent{
+    margin-top: 37px;
+    margin-left: 15px;
+    
+}
+
+.title{
+    font-size: 15px;
+}
+
+.data{
+    padding-top: 7px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 7px;
+}
+
+.Read{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    
+}
+
+.card2{
+    display: flex;
+    
+}
+
+.card3{
+    display: flex;
+    
+}
+
+.whatsapp img{
+    width: 50px;
+    bottom: 40px;
+    right: 40px;
+}
+
+.whatsapp img:hover{
+    width: 55px;
+}
+
+
+}
+
+/* middle  mobiles */
+
+@media (max-width:580px){
+
+ .card1{
+    display: block;
+    
+    
+}
+
+.image1{
+    width: 180px;
+    height: 100px;
+
+}
+
+.maincontent{
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+
+.card2{
+    display: block;
+    
+    
+}
+
+
+.image2{
+    width: 180px;
+    height: 100px;
+
+}
+
+.card3{
+    display: block;
+    
+    
+}
+
+.image3{
+    width: 180px;
+    height: 100px;
+
+}
+
+.Read{
+    font-size: 15px;
+    
+}
+
+/* about section */
+.about{
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.para2{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 120px;
+}
+
+.whatsapp img{
+    width: 40px;
+    right: 30px;
+    bottom: 40px;
+}
+
+.whatsapp img:hover{
+    width: 45px;
+}
+
+}
+ 
+/* small mobiles */
+@media (max-width:450px){
+/* navbar */
+
+.logo{
+    display: flex;
+    margin: 20px;
+}
+
+.head1{
+    font-size: 24px;
+    
+}
+
+.head2{
+    font-size: 24px;
+}
+
+
+/* hero section */
+
+.badge{
+    width: 160px;
+    height: 30px;
+    left: 20px;
+    
+    
+}
+
+.badge:hover{
+      
+    width: 170px;
+    height: 30px;
+    left: 20px;
+}
+
+.breaking{
+    padding-top: 6px;
+    font-size: 16px;
+}
+
+
+.head3{ 
+    font-size: 24px; 
+    padding-top: 240px;
+    padding-left: 20px;
+}
+
+.head4{  
+    font-size: 24px;  
+    padding-left: 20px; 
+}
+
+.para1{
+    font-size: 13px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    line-height: 32px;
+    padding-left: 20px;
+}
+
+/* main section */
+
+.card1{
+    display: block;
+        
+}
+.cardhead{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+
+.image1{
+    width: 180px;
+    height: 100px;
+    margin-left: 30px;
+
+}
+
+.maincontent{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-left: 30px;
+    
+}
+
+.card2{
+    display: block;
+    
+    
+}
+
+
+.image2{
+    width: 180px;
+    height: 100px;
+    margin-left: 30px;
+
+}
+
+.card3{
+    display: block;
+    
+    
+}
+
+.image3{
+    width: 180px;
+    height: 100px;
+    margin-left: 30px;
+
+}
+
+.Read{
+    font-size: 15px;
+    
+}
+
+/* about section */
+.about{
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.para2{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 120px;
+}
+
+.whatsapp img{
+    width: 40px;
+    right: 60px;
+    bottom: 40px;
+    right: 20px;
+}
+
+.whatsapp img:hover{
+    width: 45px;
+}
+
+footer{
+    
+    font-size: 15px;
+}
+
+
+
+
+}
