@@ -29,6 +29,20 @@ body {
 .logo {
     display: flex;
     margin: 30px;
+    animation: move 1s ease-out;
+}
+
+@keyframes move{
+    from{
+        transform: translateX(-300px);
+    }
+
+    
+    to{
+        transform: translateX(0px);
+    }
+
+    
 }
 
 .head1 {
@@ -50,7 +64,7 @@ body {
     color: white;
     padding-left: 40px;
     font-weight: bold;
-
+    transition:.3s;
 }
 
 .link:hover {
@@ -85,7 +99,22 @@ body {
     left: 30px;
     top: 110px;
     border-radius: 20px;
+    animation: move 1s ease-out;
 }
+
+@keyframes move{
+    from{
+        transform: translateX(-400px);
+    }
+
+    
+    to{
+        transform: translateX(0px);
+    }
+
+    
+}
+
 
 .badge:hover {
 
@@ -114,15 +143,44 @@ body {
     padding-left: 30px;
     font-size: 45px;
     color: white;
-
+        animation: move 1s ease-out;
 }
+
+@keyframes move{
+    from{
+        transform: translateX(-400px);
+    }
+
+    
+    to{
+        transform: translateX(0px);
+    }
+
+    
+}
+
 
 .head4 {
     padding-left: 30px;
     font-size: 45px;
     color: white;
-
+        animation: move 1s ease-out;
 }
+
+@keyframes move{
+    from{
+        transform: translateX(-400px);
+    }
+
+    
+    to{
+        transform: translateX(0px);
+    }
+
+    
+}
+
+
 
 .para1 {
     font-size: 22px;
@@ -130,7 +188,22 @@ body {
     padding-left: 30px;
     padding-top: 20px;
     line-height: 32px;
+        animation: move 1s ease-out;
 }
+
+@keyframes move{
+    from{
+        transform: translateX(-400px);
+    }
+
+    
+    to{
+        transform: translateX(0px);
+    }
+
+    
+}
+
 
 /* main section */
 
@@ -158,8 +231,24 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+        animation: opa 2s ease;
 }
+
+@keyframes opa{
+    from{
+         opacity:0;
+    }
+
+    
+    to{
+         opacity:01;
+    }
+
+    
+}
+
+
+
 
 .image2 {
     width: 170px;
@@ -171,8 +260,22 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+        animation: opa 2s ease;
 }
+
+@keyframes opa{
+    from{
+         opacity:0;
+    }
+
+    
+    to{
+         opacity:01;
+    }
+
+    
+}
+
 
 .image3 {
     width: 170px;
@@ -184,13 +287,27 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+        animation: opa 2s ease;
+}
+
+@keyframes opa{
+    from{
+         opacity:0;
+    }
+
+    
+    to{
+         opacity:01;
+    }
+
+    
 }
 
 
 .maincontent {
     margin-top: 37px;
     margin-left: 15px;
-
+    animation: move 1s ease-out;
 }
 
 .data {
@@ -200,12 +317,14 @@ main {
     padding-bottom: 7px;
 }
 
+
 .Read {
     text-decoration: none;
     font-weight: bold;
     color: red;
-
+    
 }
+
 
 .card2 {
     display: flex;
@@ -222,6 +341,7 @@ main {
 .about {
     padding-left: 70px;
     padding-top: 80px;
+    animation: move 1s ease-out;
 }
 
 .para2 {
@@ -229,7 +349,11 @@ main {
     padding-top: 20px;
     font-size: 17px;
     padding-bottom: 120px;
+        animation: move 1s ease-out;
 }
+
+
+
 
 /* footer */
 
