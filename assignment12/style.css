@@ -1,0 +1,96 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: navy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    color: white;
+    
+
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+    
+    
+}
+
+.product1{
+   background-image: url(images/phone.jfif);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px;
+   box-shadow: 0 10px 15px black;
+   height: 250px;
+    
+}
+
+.product2{
+    background-image: url(images/laptop.jfif);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px;
+   box-shadow: 0 10px 15px black;
+   height: 250px;
+}
+
+.product3{
+   background-image: url(images/smartwatch.jfif);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px;
+   box-shadow: 0 10px 15px black;
+   height: 250px;
+}
+
+.productname{
+    font-size: 30px;
+    margin-top: 10px;
+    
+    
+}
+.productprice{
+    font-size: 30px;
+    
+    
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: bisque;
+    color: navy;
+    
+}
