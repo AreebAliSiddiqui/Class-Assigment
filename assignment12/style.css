@@ -45,8 +45,23 @@ body{
    border-radius: 10px;
    box-shadow: 0 10px 15px black;
    height: 250px;
+          animation: move 1s ease-out;
+}
+
+@keyframes move{
+    from{
+        transform: translateX(-400px);
+    }
+
+    
+    to{
+        transform: translateX(0px);
+    }
+
     
 }
+
+
 
 .product2{
     background-image: url(images/laptop.jfif);
@@ -56,7 +71,22 @@ body{
    border-radius: 10px;
    box-shadow: 0 10px 15px black;
    height: 250px;
+      animation: move 1s ease-out;
 }
+
+@keyframes move{
+    from{
+        transform: translateX(-400px);
+    }
+
+    
+    to{
+        transform: translateX(0px);
+    }
+
+    
+}
+
 
 .product3{
    background-image: url(images/smartwatch.jfif);
@@ -66,7 +96,22 @@ body{
    border-radius: 10px;
    box-shadow: 0 10px 15px black;
    height: 250px;
+      animation: move 1s ease-out;
 }
+
+@keyframes move{
+    from{
+        transform: translateX(-400px);
+    }
+
+    
+    to{
+        transform: translateX(0px);
+    }
+
+    
+}
+
 
 .productname{
     font-size: 30px;
