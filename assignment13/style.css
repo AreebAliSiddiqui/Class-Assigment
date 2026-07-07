@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+     background: linear-gradient(
+        180deg,
+        #FFF0F2 0%,
+        #FADDE2 45%,
+        #F3CAD2 100%
+    );
+    display: grid;
+    place-items: center;
+
+}
+
+.container{
+    width: 85%;
+    height: 85%;
+    background-color: #43161D;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.logo{
+    height: 60px;
+    background-color: #FADDE2;
+}
+
+.links{
+    height: 60px;
+    background-color: #F3CAD2;
+    
+}
+
+.hero{
+    background-color: aliceblue;
+}
